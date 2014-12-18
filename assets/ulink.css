@@ -365,14 +365,14 @@ p {
   background-color: white;
 }
 .col-logo {
-  opacity: 0.2;
+  opacity: 0.4;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
   text-align: center;
 }
 .col-logo:hover {
-  opacity: 0.5;
+  opacity: 0.95;
 }
 .footer-section {
   background-color: inherit;
