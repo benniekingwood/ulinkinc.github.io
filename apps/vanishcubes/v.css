@@ -125,7 +125,7 @@ a:hover{text-decoration: none;}
 #hero-bloc h3{
 	font-size:30px;
 }
-#scroll-hero span { top: 5px!important; }
+#scroll-hero span.glyphicon  { top: 5px!important; }
  @media (min-width: 768px){
 	.site-navigation{
 	position: absolute;
