@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="iOS, apple, simon game, ">
+    <meta name="description" content="A new touch on a classic Simon game.">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="v.css">
+    <title>Vanishcubes</title>
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="page-container">
+
+        <!-- Hero Bloc -->
+        <div id="hero-bloc" class="bloc hero  d-bloc">
+            <div class="v-center text-center">
+                <div class="vc-content">
+                    <div>
+                        <img class="hero-logo" src="img/vanishcubes-logo@2x.png" alt="Vanishcubes" />
+                    </div>
+
+                    <h3>
+				        Memory games just got a whole lot better.
+			        </h3>
+                    <br />
+                    <br />
+                    <br />
+                    <a href="https://itunes.apple.com/us/app/vanishcubes/id287090429?ls=1&mt=8">
+                        <img alt="Download" class="hero-download" src="img/download-app-store.png" />
+                    </a>
+                    <a id="scroll-hero" class="btn-dwn" href="#bloc-2"><span class="fa fa-chevron-down"></span></a>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Bloc END -->
+
+        <!-- bloc-2 -->
+        <div class="bloc l-bloc  " id="bloc-2">
+            <div class="container bloc-lg">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/shot-2.png" class="img-responsive" alt='' />
+                        <h3 class="mg-lg">
+					Have Some Fun
+				</h3>
+                        <p>
+                            Playing is simple, just follow the pattern of the cubes. The catch is as you get further along in the pattern, the cubes disappear. Can you keep up once there is no canvas to guide you?
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/shot-1.png" class="img-responsive" alt='' />
+                        <h3 class="mg-lg">
+					GameCenter
+				</h3>
+                        <p>
+                            Compare your top score against other gamers in the world. Will you become #1?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bloc-2 END -->
+
+        <!-- Footer - footer -->
+        <div class="bloc l-bloc  " id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3 class="">
+					        Contact Us
+				        </h3>
+                        <a href="mailto:support@ulink.io" class="a-btn a-block l">feedback</a>
+                        <p>
+                            © uLink, Inc. 2015
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3 class="">
+					        Get the App
+				        </h3><a href="https://itunes.apple.com/us/app/vanishcubes/id287090429?ls=1&mt=8" class="a-btn a-block l">iPhone</a>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="empty-column"></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="empty-column"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer - footer END -->
+    </div>
+    <!-- Main container END -->
+
+</body>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.hero').css('height', ($(window).height() - $('header').outerHeight()) + 'px');
+
+        $('#scroll-hero').click(function () {
+            $('html,body').animate({
+                scrollTop: $("#hero-bloc").height()
+            }, 'slow');
+        });
+    });
+
+    $(window).resize(function () {
+        $('.hero').css('height', ($(window).height() - $('header').outerHeight()) + 'px');
+    });
+</script>
+
+</html>
