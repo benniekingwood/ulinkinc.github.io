@@ -403,6 +403,9 @@ p {
 .col-social.google:hover {
   background-color: #dd4b39;
 }
+.col-social.linkedin:hover {
+  background-color: #0077b7;
+}
 .col-social.pinterest {
   border-right-style: none;
 }
