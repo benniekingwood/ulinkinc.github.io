@@ -811,6 +811,7 @@ html.ul-mod-js.ul-mod-no-ios *[data-ix="from-left"] {
     Mobile Styles - 479px
 *********************/
 @media (max-width: 479px) {
+    .ul-nav-brand{width:20%;}
   h2 {
     font-size: 28px;
   }
