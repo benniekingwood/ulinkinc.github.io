@@ -223,6 +223,7 @@ p {
     border: 1px solid #ffffff;
     color: #ffffff;
 }
+.ie-nav-bar { position: absolute; }
 /* Mobile adjustments */
 
 @media (max-width: 1199px) {
