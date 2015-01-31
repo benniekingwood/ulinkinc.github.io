@@ -78,7 +78,7 @@ h2 {
 }
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 0px;
     float: right;
 }
 .nav > li {
@@ -295,12 +295,6 @@ p {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
-    }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
