@@ -55,8 +55,8 @@
     <div class="page-container">
 
         <!-- Navigation Bloc -->
-        <div class="bloc  l-bloc animated fadeInDownBig" id="nav-bloc">            
-            <nav id="nav-bar" class="navbar navbar-dark navbar-fixed-top">
+        <div class="bloc  l-bloc" id="nav-bloc">            
+            <nav class="navbar navbar-dark navbar-fixed-top">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="/">
                         <img src="assets/img/icon_32x32@2x.png" alt='uLink Logo' />
@@ -349,13 +349,9 @@
     </div>
     <!-- Main container END -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.0.7/jquery.browser.min.js"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     <script type="text/javascript">
         $(document).ready(function () {
-            if ($.browser.msie) {
-              $("#nav-bar").addClass("ie-nav-bar");
-            }
             $('a[id^="navlink"]').hover(
 
                 function (el) {
