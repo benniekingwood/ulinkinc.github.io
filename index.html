@@ -55,10 +55,10 @@
     <div class="page-container">
 
         <!-- Navigation Bloc -->
-        <div class="bloc  l-bloc" id="nav-bloc">            
+        <div class="bloc  l-bloc" id="nav-bloc">
             <nav class="navbar navbar-dark navbar-fixed-top">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/">
+                    <a id="navlink-home" class="navbar-brand" href="/">
                         <img src="assets/img/icon_32x32@2x.png" alt='uLink Logo' />
                     </a>
                 </div>
@@ -68,6 +68,8 @@
                         <li><a id="navlink-work" href="#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i></a>
                         </li>
                         <li><a id="navlink-stay-in-touch" href="#bloc-8"><i class="fa fa-life-ring fa-2x"></i></a>
+                        </li>
+                        <li><a id="navlink-submit-project" href="contact.html"><i class="fa fa-plus-square-o fa-2x"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -181,8 +183,7 @@
                             <p>
                                 <em>
                             "Creative, professional, reliable.  Three words that I'd use to describe ulink.  In the two years I've worked with them, they've never failed to get the job done right." 
-                            </em>
-                                - Jon D. Cruz, IEEE Computer Society
+                            </em> - Jon D. Cruz, IEEE Computer Society
                             </p>
                         </div>
                     </div>
@@ -247,10 +248,12 @@
                     </div>
                     <div class="col-sm-4 bric-container animated fadeInRight">
                         <div class="bric-md text-container">
-                            <h2>Have a new project?</h2>
-                            <p>
-                                We work with established companies to design and develop creative products.
-                            </p>
+                            <a href="contact.html">
+                                <h2>Have a new project?</h2>
+                                <p>
+                                    We work with established companies to design and develop creative products.
+                                </p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -347,34 +350,7 @@
     <!-- Main container END -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('a[id^="navlink"]').hover(
-
-                function (el) {
-                    if (el.target.id == 'navlink-stay-in-touch') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Stay in Touch</strong></a>');
-                    else if (el.target.id == 'navlink-work') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Work</strong></a>');
-                }, function () {
-                    $('#navlink-text').html('');
-                }
-            );
-        });
-
-        $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
