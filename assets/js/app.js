@@ -1,5 +1,11 @@
 /* global $,document,console,Parse */
 $(document).ready(function () {
+    
+    // init tooltip
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    
      $('a[id^="navlink"]').hover(
         function (el) {
             if (el.target.id == 'navlink-stay-in-touch') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Stay in Touch</strong></a>');
