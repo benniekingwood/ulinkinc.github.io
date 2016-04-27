@@ -198,7 +198,7 @@ p {
 .client img:hover { opacity: 1.0; filter: alpha(opacity=100); cursor: pointer;}
 .client img {
     min-width: 50px!important;
-    height: 140px;
+    max-height: 140px;
     opacity: 0.6;
     filter: alpha(opacity=60);
     -webkit-transition: opacity 500ms ease;
