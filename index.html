@@ -1,6 +1,5 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Organization" lang="en">
-
 <head>
     <!-- Title - keep less than 70 chars for better Google placement -->
     <title>uLink · Consulting Solutions</title>
@@ -36,12 +35,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="assets/ulink.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/ulink.css"> -->
 
     <!-- JS -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="favicon.png">
@@ -65,12 +65,10 @@
             <div class="collapse navbar-collapse navbar-1">
                 <ul class="nav">
                     <li id="navlink-text"></li>
-                    <li><a id="navlink-work" href="#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i></a>
-                    </li>
-                    <li><a id="navlink-stay-in-touch" href="#bloc-8"><i class="fa fa-life-ring fa-2x"></i></a>
-                    </li>
-                    <li><a id="navlink-submit-project" href="contact.html"><i class="fa fa-plus-square-o fa-2x"></i></a>
-                    </li>
+                    <li><a id="navlink-work" href="#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i></a></li>
+                    <li><a id="navlink-stay-in-touch" href="#bloc-8"><i class="fa fa-life-ring fa-2x"></i></a></li>
+                    <li><a id="navlink-submit-project" href="contact.html"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+                    <li><a id="navlink-meet-team" href="team.html"><i class="fa fa-users fa-2x"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -180,7 +178,7 @@
                 <div class="col-sm-4 bric-container animated fadeInLeft">
                     <div class="bric-md">
                         <!-- <div class="text-overlay text-overlay-white">coming soon</div> -->
-                        <a href="https://mycs.computer.org" target="_blank">
+                        <a href="client.html?client=mycs">
                             <img src="assets/img/mycs-logo.jpg" class="img-responsive" alt='myCS Logo'/>
                         </a>
                     </div>
@@ -197,7 +195,7 @@
                 </div>
                 <div class="col-sm-4 bric-container animated fadeInRight">
                     <div class="bric-md">
-                        <a href="http://www.computer.org" target="_blank">
+                        <a href="client.html?client=comporg">
                             <img src="assets/img/cs-redesign.png" class="img-responsive"
                                  alt='Computer.org Project Picture'/>
                         </a>
@@ -286,26 +284,33 @@
                 </div>
                 <div class="col-sm-12 bric-container">
                     <div class="bric-md">
-                        <div class="col-sm-offset-1 col-sm-2 client">
-                            <img src="assets/img/napin-logo.png" alt='Napin Logo' data-toggle="tooltip"
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-2 client">
+                            <a class="client-a" href="client.html?client=napin">
+                                <img src="assets/img/napin-logo.png" alt='Napin Logo' data-toggle="tooltip"
                                  data-placement="bottom" title="Napin"/>
+                            </a>
                         </div>
                         <div class="col-sm-2 client">
                             <img src="assets/img/cs-logo.png" alt='IEEE Computer Society Logo' data-toggle="tooltip"
                                  data-placement="bottom" title="IEEE Computer Society"/>
                         </div>
                         <div class="col-sm-2 client">
+
                             <img src="assets/img/conopsys-logo.png" alt='Conopsys Logo' data-toggle="tooltip"
                                  data-placement="bottom" title="Conopsys"/>
                         </div>
                         <div class="col-sm-2 client">
-                            <img src="assets/img/fb-logo.png" alt='Fine Brothers Entertainment Logo' data-toggle="tooltip"
+                            <a class="client-a" href="client.html?client=finebros">
+                                <img src="assets/img/fb-logo.png" alt='Fine Brothers Entertainment Logo' data-toggle="tooltip"
                                  data-placement="bottom" title="Fine Brothers Entertainment"/>
+                            </a>
                         </div>
                         <div class="col-sm-2 client" style="margin-top: 3%;">
                             <img src="assets/img/cloudix-logo.png" alt='Cloud IX Logo' data-toggle="tooltip"
                                  data-placement="bottom" title="Cloud IX Homes"/>
                         </div>
+                        <div class="col-sm-1"></div>
                     </div>
                 </div>
             </div>
@@ -378,7 +383,7 @@
     <!-- Footer - bloc-9 END -->
 </div>
 <!-- Main container END -->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

@@ -1,0 +1,62 @@
+{
+	"clients": [
+		{
+			"id": "cloud9",
+			"name": "Cloud IX Homes",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "img1.png", "alt": "Random Image" }
+			]
+		},
+		{
+			"name": "Conopsys",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "img1.png", "alt": "Random Image" }
+			]
+		},
+		{
+			"id": "finebros",
+			"name": "Fine Brothers Entertainment",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "finebros1.png", "alt": "Finebros Image 1" },
+				{ "src": "finebros2.png", "alt": "Finebros Image 2" },
+				{ "src": "finebros3.png", "alt": "Finebros Image 3" }
+			]
+		},
+		{
+			"id": "mycs",
+			"name": "MyCS",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "mycs1.png", "alt": "MyCS Publications Home Page" },
+				{ "src": "mycs2.png", "alt": "MyCS Subscriptions Search Page" },
+				{ "src": "mycs3.png", "alt": "MyCS Publications Contents Page" },
+				{ "src": "mycs4.png", "alt": "MyCS Publications Listings Page" }
+			]
+		},
+		{
+			"id": "comporg",
+			"name": "computer.org",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "comporg1.png", "alt": "Computer.org Image 1" },
+				{ "src": "comporg2.png", "alt": "Computer.org Image 2" },
+				{ "src": "comporg3.png", "alt": "Computer.org Image 3" },
+				{ "src": "comporg4.png", "alt": "Computer.org Image 4" }
+			]
+		},
+		{
+			"id": "napin",
+			"name": "Napin",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "napin1.png", "alt": "Napin Screen 1" },
+				{ "src": "napin2.png", "alt": "Napin Screen 2" },
+				{ "src": "napin3.png", "alt": "Napin Screen 3" },
+				{ "src": "napin4.png", "alt": "Napin Screen 4" }
+			]
+		}
+	]
+}
