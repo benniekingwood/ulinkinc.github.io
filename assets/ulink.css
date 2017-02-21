@@ -229,6 +229,9 @@ hr {
 }
 /* Misc Custom Stuff */
 
+.text-ulink {
+    color: #338195 !important;
+}
 .color-ulink {
     background-color: #338195 !important;
 }
@@ -257,6 +260,11 @@ div[class^="bric"] .fill {
     height: inherit;
     margin: 5px;
 }
+.bric-xl {
+    height: 800px;
+    margin: 5px;
+}
+
 .bric-lg {
     height: 610px;
     margin: 5px;
@@ -343,6 +351,15 @@ p {
     font-size: 16px;
     margin: 10px 0;
 }
+
+ul.medium > li {
+    font-size: 16px;
+}
+
+ul.large > li {
+    font-size: 23px;
+}
+
 #bio p {
     font-size: 16px;
 }
@@ -381,6 +398,10 @@ p {
 @media (max-width: 767px) {
     .social i {
         margin-bottom: 30px;
+    }
+     .bric-xl {
+        height: auto;
+        margin: 5px;
     }
     .bric-lg {
         height: auto;

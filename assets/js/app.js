@@ -13,7 +13,7 @@ $(document).ready(function () {
             else if (el.target.id == 'navlink-submit-project') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Submit Your Project</strong></a>');
             else if (el.target.id == 'navlink-home') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Home</strong></a>');
             else if (el.target.id == 'navlink-meet-team') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Meet the Team</strong></a>');
-
+            else if (el.target.id == 'navlink-case-studies') $('#navlink-text').html('<a href="#" class="navlink-text"><strong>Case Studies</strong></a>');
         }, function () {
             $('#navlink-text').html('');
         }
