@@ -423,10 +423,10 @@ img.avatar {
     border-radius: 49.9%;
 }
 
-.bg-space {
-    background-image: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/space-bg.jpg);
-    background-image: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/space-bg.jpg);
-    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/space-bg.jpg);
+.bg-parallax {
+    background-image: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/we-create.jpg);
+    background-image: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/we-create.jpg);
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.49), rgba(255, 255, 255, 0)), url(img/we-create.jpg);
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;

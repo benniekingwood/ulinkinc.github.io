@@ -18,7 +18,7 @@
 		{
 			"id": "finebros",
 			"name": "Fine Brothers Entertainment",
-			"description": "Here is a description of the work we performed for the client!",
+			"description": "<h3>High Availablity/Scalable Web Infrastructure</h3><ul><li>Met with Fine Brothers to compile their requirements for their desired new website launch</li><li>Analyzed their potential and future user base and designed a cloud infrastructure that would scale organically with their user growth</li><li>Infrastructure currently supports hundreds of thousands of unique visitors</li></ul>",
 			"images": [
 				{ "src": "finebros1.png", "alt": "Finebros Image 1" },
 				{ "src": "finebros2.png", "alt": "Finebros Image 2" },
