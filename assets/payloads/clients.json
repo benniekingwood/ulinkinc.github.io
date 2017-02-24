@@ -1,0 +1,62 @@
+{
+	"clients": [
+		{
+			"id": "cloud9",
+			"name": "Cloud IX Homes",
+			"description": "<h3>Web Platform User Interface Wireframing</h3><ul><li>Met with client to gather necessary requirements and discuss optimal design</li><li>Currently providing client with digital wireframes of pending web application</li></ul>",
+			"images": [
+				{ "src": "coming-soon.png", "alt": "Product Image Coming Soon" }
+			]
+		},
+		{
+			"name": "Conopsys",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "img1.png", "alt": "Random Image" }
+			]
+		},
+		{
+			"id": "finebros",
+			"name": "Fine Brothers Entertainment",
+			"description": "Here is a description of the work we performed for the client!",
+			"images": [
+				{ "src": "finebros1.png", "alt": "Finebros Image 1" },
+				{ "src": "finebros2.png", "alt": "Finebros Image 2" },
+				{ "src": "finebros3.png", "alt": "Finebros Image 3" }
+			]
+		},
+		{
+			"id": "mycs",
+			"name": "IEEE Computer Society",
+			"description": "<blockquote><p>\"I've been in the software development industry for a little over 20 years, and I've worked with Bennie for at least 4 of those years. His diligence in understanding the requirements of a project, as well as adding value and style to them, has stood out to the point where I'll always try to make him part of my development team.\"<br /><em><img src=\"/assets/img/people/jon-cruz.jpg\" class=\"img-rounded avatar\" /> Jon Cruz, Customer Applications Manager</em></blockquote><h3>myCS Web Application</h3><p>Currently providing IEEE Computer Society development and design on their myCS application (https://mycs.computer.org). As the technical architect and lead developer on this project for over 2 years, I have been a key contributor from gathering requirements to ensuring the successful initial product launch. We setup their system to utilize AWS, and designed the application alongside their creative team. myCS supports the entire IEEE Computer Society membership, and will continue to grow as we continuously release new functionality and features.</p>",
+			"images": [
+				{ "src": "mycs1.png", "alt": "MyCS Publications Home Page" },
+				{ "src": "mycs2.png", "alt": "MyCS Subscriptions Search Page" },
+				{ "src": "mycs3.png", "alt": "MyCS Publications Contents Page" },
+				{ "src": "mycs4.png", "alt": "MyCS Publications Listings Page" }
+			]
+		},
+		{
+			"id": "comporg",
+			"name": "IEEE Computer Society",
+			"description": "<blockquote><p>\"I worked with uLink while working at IEEE Computer Society.  Bennie is a highly dedicated and skilled developer and designer. With uLink he brought a fresh and unique perspective to the table, as well as new ways of tackling and resolving persistent problems. He is highly ethical and I recommend him wholeheartedly. I enjoyed working with Bennie as I am sure you will too.\"<br /><em><img src=\"/assets/img/people/ray-khan.jpg\" class=\"img-rounded avatar\" /> Ray Khan, VP Technology</em></blockquote><h3>Computer.org Redesign Project</h3><ul><li>Architected technical infrastructure stack</li><li>Provided UX Design</li><li>Full stack development of software components</li><li>Technologies utilized: Node.JS, Java, Spring MVC, Bootstrap, HTML/CSS, MongoDB</li></ul>",
+			"images": [
+				{ "src": "comporg1.png", "alt": "Computer.org Image 1" },
+				{ "src": "comporg2.png", "alt": "Computer.org Image 2" },
+				{ "src": "comporg3.png", "alt": "Computer.org Image 3" },
+				{ "src": "comporg4.png", "alt": "Computer.org Image 4" }
+			]
+		},
+		{
+			"id": "napin",
+			"name": "Napin",
+			"description": "<blockquote><p>\"Worked with uLink and Bennie on several different levels of engagement.  From a simple website tweak to a full blown mock up system for our product.  He is a consummate professional and would not hesitate to use again if the opportunity arise.\"<br /><em><img src=\"/assets/img/people/alec-salemon.jpg\" class=\"img-rounded avatar\" /> Alec Salemon, CEO</em></blockquote><h3>Point of Sale Mobile Application</h3><ul><li>Worked with client to determine requirements for necessary application functionality</li><li>Developed Android mobile application with IoT (Internet of Things) hardware integrations using Wink smart lock, lights, and power outlets</li><li>Third party integrations included Wink, Mailchimp and AWS Beanstalk!</li></ul>",
+			"images": [
+				{ "src": "napin1.png", "alt": "Napin Screen 1" },
+				{ "src": "napin2.png", "alt": "Napin Screen 2" },
+				{ "src": "napin3.png", "alt": "Napin Screen 3" },
+				{ "src": "napin4.png", "alt": "Napin Screen 4" }
+			]
+		}
+	]
+}
