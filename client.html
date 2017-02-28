@@ -34,11 +34,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/ulink.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/ulink.css">
+    <link rel="stylesheet" type="text/css" href="assets/ulink.min.css">
     <!-- JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <!-- <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script> -->
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
@@ -53,21 +51,27 @@
         <div class="bloc l-bloc" id="nav-bloc">
             <nav class="navbar navbar-dark navbar-fixed-top">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a id="navlink-home" class="navbar-brand" href="/">
                         <img src="assets/img/icon_32x32@2x.png" alt='uLink Logo' />
                     </a>
                 </div>
-                <div class="collapse navbar-collapse navbar-1">
+                <div id="navbar" class="collapse navbar-collapse navbar-1">
                     <ul class="nav">
                         <li id="navlink-text"></li>
-                        <li><a id="navlink-work" href="index.html#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i></a>
+                        <li><a id="navlink-work" href="index.html#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i><strong class="visible-xs navlink-text">Work</strong></a>
                         </li>
-                        <li><a id="navlink-case-studies" href="case-studies.html"><i class="fa fa-briefcase fa-2x"></i></a></li>
-                        <li><a id="navlink-meet-team" href="team.html"><i class="fa fa-users fa-2x"></i></a>
+                        <li><a id="navlink-case-studies" href="case-studies.html"><i class="fa fa-briefcase fa-2x"></i><strong class="visible-xs navlink-text">Case Studies</strong></a></li>
+                        <li><a id="navlink-meet-team" href="team.html"><i class="fa fa-users fa-2x"></i><strong class="visible-xs navlink-text">Meet the Team</strong></a>
                         </li>
-                        <li><a id="navlink-stay-in-touch" href="index.html#bloc-8"><i class="fa fa-life-ring fa-2x"></i></a>
+                        <li><a id="navlink-stay-in-touch" href="index.html#bloc-8"><i class="fa fa-life-ring fa-2x"></i><strong class="visible-xs navlink-text">Stay in Touch</strong></a>
                         </li>
-                        <li><a id="navlink-submit-project" href="#"><i class="fa fa-envelope-o fa-2x"></i></a>
+                        <li><a id="navlink-submit-project" href="#"><i class="fa fa-envelope-o fa-2x"></i><strong class="visible-xs navlink-text">Submit Your Project</strong></a>
                         </li>
                     </ul>
                 </div>
@@ -87,93 +91,87 @@
             <div id="caption"></div>
         </div>
         <!-- Client Projects Bloc -->
-        <div bloc l-bloc " id="bloc-10 ">
-            <div class="container bloc-lg ">
-                <div class="row ">
+        <div class="bloc l-bloc" id="bloc-10">
+            <div class="container bloc-lg">
+                <div class="row">
                     <!-- small blocks -->
-                    <div class="col-sm-2 ">
-                        <div class="row bric-container animated fadeInRight ">
-                            <div class="bric-sm ">
+                    <div class="col-sm-2">
+                        <div class="row bric-container animated fadeInRight">
+                            <div class="bric-sm">
                                 <!-- Trigger the Modal -->
-                                <img id="myImg1 " class="img-responsive client-img ">
+                                <img id="myImg1" class="img-responsive client-img">
                             </div>
                         </div>
-                        <div class="row bric-container animated fadeInRight ">
-                            <div class="bric-sm ">
-                                <img id="myImg2 " class="img-responsive client-img ">
+                        <div class="row bric-container animated fadeInRight">
+                            <div class="bric-sm">
+                                <img id="myImg2" class="img-responsive client-img">
                             </div>
                         </div>
                     </div>
-
                     <!-- small blocks -->
-                    <div class="col-sm-2 ">
-                        <div class="row bric-container animated fadeInRight ">
-                            <div class="bric-sm ">
-                                <img id="myImg3 " class="img-responsive client-img ">
+                    <div class="col-sm-2">
+                        <div class="row bric-container animated fadeInRight">
+                            <div class="bric-sm">
+                                <img id="myImg3" class="img-responsive client-img">
                             </div>
                         </div>
-                        <div class="row bric-container animated fadeInRight ">
-                            <div class="bric-sm ">
-                                <img id="myImg4 " class="img-responsive client-img ">
+                        <div class="row bric-container animated fadeInRight">
+                            <div class="bric-sm">
+                                <img id="myImg4" class="img-responsive client-img">
                             </div>
                         </div>
                     </div>
-
                     <!-- large block -->
-                    <div class="col-sm-8 bric-container ">
+                    <div class="col-sm-8 bric-container">
                         <div class="bric-xl">
-                            <!-- <div class="container "> -->
-                                <h2 id="clientName"></h2>
-                                <p id="clientText"></p>
-                            <!-- </div> -->
+                            <h2 id="clientName"></h2>
+                            <p id="clientText"></p>
                         </div>
                     </div>
-                <!-- end ROW -->
+                    <!-- end ROW -->
                 </div>
             </div>
         </div>
         <!-- Client Projects Bloc END -->
-
         <!-- Footer - bloc-7 -->
-        <div class="bloc l-bloc " id="bloc-7 ">
-            <div class="container bloc-lg ">
-                <div class="row ">
-                    <div class="col-sm-12 col-md-8 col-md-offset-2 ">
-                        <div class="col-sm-3 text-center ">
-                            <a target="_blank " class="social " href="https://twitter.com/ulinkinc "><i class="fa fa-twitter fa-4x "></i></a>
+        <div class="bloc l-bloc" id="bloc-7">
+            <div class="container bloc-lg">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8 col-md-offset-2">
+                        <div class="col-sm-3 text-center">
+                            <a target="_blank" class="social" href="https://twitter.com/ulinkinc"><i class="fa fa-twitter fa-4x"></i></a>
                         </div>
-                        <div class="col-sm-3 text-center ">
-                            <a target="_blank " class="social " href="https://www.linkedin.com/company/ulink-inc- "><i class="fa fa-linkedin fa-4x "></i></a>
+                        <div class="col-sm-3 text-center">
+                            <a target="_blank" class="social" href="https://www.linkedin.com/company/ulink-inc-"><i class="fa fa-linkedin fa-4x"></i></a>
                         </div>
-                        <div class="col-sm-3 text-center ">
-                            <a target="_blank " class="social " href="http://facebook.com/ulinkinc "><i class="fa fa-facebook fa-4x "></i></a>
+                        <div class="col-sm-3 text-center">
+                            <a target="_blank" class="social" href="http://facebook.com/ulinkinc "><i class="fa fa-facebook fa-4x"></i></a>
                         </div>
-                        <div class="col-sm-3 text-center ">
-                            <a target="_blank " class="social " href="http://pinterest.com/ulinkconsulting "><i class="fa fa-pinterest fa-4x "></i></a>
+                        <div class="col-sm-3 text-center">
+                            <a target="_blank " class="social" href="http://pinterest.com/ulinkconsulting"><i class="fa fa-pinterest fa-4x "></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Footer - bloc-7 END -->
-
         <!-- Footer - bloc-8 -->
-        <div class="bloc l-bloc " id="bloc-8 ">
-            <div class="container bloc-lg ">
-                <div class="row ">
-                    <div class="col-sm-4 ">
-                        <h3 class="mg-md text-center ">
-                    <span class="fa fa-location-arrow "></span>156 2nd Street<br />San Francisco, CA 94105
+        <div class="bloc l-bloc" id="bloc-8">
+            <div class="container bloc-lg">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3 class="mg-md text-center">
+                    <span class="fa fa-location-arrow"></span>156 2nd Street<br />San Francisco, CA 94105
                 </h3>
                     </div>
-                    <div class="col-sm-4 ">
-                        <h3 class="mg-md text-center ">
+                    <div class="col-sm-4">
+                        <h3 class="mg-md text-center">
                     <span class="fa fa-envelope "></span> <a href="mailto:hi@ulink.io?subject=Inquiring Minds " target="_blank ">hi@ulink.io</a>
                 </h3>
                     </div>
-                    <div class="col-sm-4 ">
-                        <h3 class="mg-md text-center ">
-                    <span class="fa fa-phone "></span> +1.415.890.0137
+                    <div class="col-sm-4">
+                        <h3 class="mg-md text-center">
+                    <span class="fa fa-phone"></span> +1.415.890.0137
                 </h3>
                     </div>
                 </div>
@@ -181,12 +179,12 @@
         </div>
         <!-- Footer - bloc-8 END -->
         <!-- Footer - bloc-9 -->
-        <div class="bloc l-bloc " id="bloc-9 ">
-            <div class="container bloc-sm ">
-                <div class="row text-center text-muted ">
-                    <i class="fa fa-keyboard-o "></i> in CA
+        <div class="bloc l-bloc" id="bloc-9">
+            <div class="container bloc-sm">
+                <div class="row text-center text-muted">
+                    <i class="fa fa-keyboard-o"></i> in CA
                 </div>
-                <div class="row text-center text-muted ">
+                <div class="row text-center text-muted">
                     © 2017 uLink, Inc.
                 </div>
             </div>
@@ -194,9 +192,11 @@
         <!-- Footer - bloc-9 END -->
     </div>
     <!-- Main container END -->
-    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js "></script><![endif]-->
-    <script src="assets/js/app.js "></script>
-    <script src="assets/js/clients.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/clients.js"></script>
 </body>
+
 </html>

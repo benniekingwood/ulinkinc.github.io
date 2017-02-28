@@ -34,11 +34,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/ulink.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/ulink.css">
+    <link rel="stylesheet" type="text/css" href="assets/ulink.min.css">
     <!-- JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
@@ -53,21 +51,27 @@
         <div class="bloc  l-bloc" id="nav-bloc">
             <nav class="navbar navbar-dark navbar-fixed-top">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a id="navlink-home" class="navbar-brand" href="/">
                         <img src="assets/img/icon_32x32@2x.png" alt='uLink Logo' />
                     </a>
                 </div>
-                <div class="collapse navbar-collapse navbar-1">
+                <div id="navbar" class="collapse navbar-collapse navbar-1">
                     <ul class="nav">
                         <li id="navlink-text"></li>
-                        <li><a id="navlink-work" href="index.html#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i></a>
+                        <li><a id="navlink-work" href="index.html#bloc-3"><i class="fa fa-connectdevelop fa-2x"></i><strong class="visible-xs navlink-text">Work</strong></a>
                         </li>
-                        <li><a id="navlink-case-studies" href="case-studies.html"><i class="fa fa-briefcase fa-2x"></i></a></li>
-                        <li><a id="navlink-meet-team" href="#"><i class="fa fa-users fa-2x"></i></a>
+                        <li><a id="navlink-case-studies" href="case-studies.html"><i class="fa fa-briefcase fa-2x"></i><strong class="visible-xs navlink-text">Case Studies</strong></a></li>
+                        <li><a id="navlink-meet-team" href="#"><i class="fa fa-users fa-2x"></i><strong class="visible-xs navlink-text">Meet the Team</strong></a>
                         </li>
-                        <li><a id="navlink-stay-in-touch" href="index.html#bloc-8"><i class="fa fa-life-ring fa-2x"></i></a>
+                        <li><a id="navlink-stay-in-touch" href="index.html#bloc-8"><i class="fa fa-life-ring fa-2x"></i><strong class="visible-xs navlink-text">Stay in Touch</strong></a>
                         </li>
-                        <li><a id="navlink-submit-project" href="contact.html"><i class="fa fa-plus-square-o fa-2x"></i></a>
+                        <li><a id="navlink-submit-project" href="contact.html"><i class="fa fa-envelope-o fa-2x"></i><strong class="visible-xs navlink-text">Submit Your Project</strong></a>
                         </li>
                     </ul>
                 </div>
@@ -297,7 +301,7 @@
                     <i class="fa fa-keyboard-o"></i> in CA
                 </div>
                 <div class="row text-center text-muted">
-                    © 2016 uLink, Inc.
+                    © 2017 uLink, Inc.
                 </div>
             </div>
         </div>
@@ -306,6 +310,7 @@
     <!-- Main container END -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 
