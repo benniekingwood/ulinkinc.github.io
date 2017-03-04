@@ -335,6 +335,11 @@ div[class^="bric"] .fill {
     margin: 5px;
 }
 
+.bric-2xl {
+    height: 1000px !important;
+    margin: 5px;
+}
+
 .bric-xl {
     height: 800px !important;
     margin: 5px;
@@ -533,7 +538,6 @@ ul.large > li {
         padding-left: 5px!important;
         padding-right: 5px!important;
     }
-
     .bloc {
         text-align: center;
         -webkit-background-size: auto 200%;
